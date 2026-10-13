@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>รายวิชาเพิ่มเติม ภาคเรียนที่ 2 ปีการศึกษา 2569</title>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500;700&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07080d;--card:#10121c;--line:#232640;--ink:#eef0ff;--mute:#9aa0c3;--b:#3b82f6;--p:#a855f7;--r:#ef4444;color-scheme:dark;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(900px 420px at 85% -80px,#3b1d7a55,transparent),radial-gradient(700px 380px at -10% 0,#1c3d8f55,transparent),var(--bg);background-color:var(--bg);color:var(--ink);font:17px/1.6 Sarabun,"Noto Sans Thai",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:30px 18px 70px}
+h1{font:700 clamp(28px,5.5vw,46px)/1.2 Prompt,sans-serif;margin:0 0 6px;background:linear-gradient(90deg,var(--b),var(--p) 55%,var(--r));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--mute);margin:0 0 24px}
+h2{font:500 16px Prompt,sans-serif;color:var(--mute);margin:0 0 10px}
+.tabs,.chips{display:flex;gap:8px;flex-wrap:wrap}
+.tabs{margin-bottom:20px}
+button{font:600 16px Sarabun,sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 18px;cursor:pointer}
+button:hover{border-color:var(--p)}
+.tabs button[aria-selected="true"]{background:linear-gradient(90deg,var(--b),var(--p));border-color:transparent;box-shadow:0 0 18px #7c3aed66}
+.chips button[aria-pressed="true"]{border-color:var(--chip);box-shadow:inset 0 0 0 1px var(--chip);color:#fff}
+button:focus-visible,.q:focus-visible{outline:3px solid var(--p);outline-offset:2px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.st{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+.st b{display:block;font:700 34px/1.2 Prompt,sans-serif}
+.st span{color:var(--mute);font-size:15px}
+.st:nth-child(1) b{color:var(--b)}.st:nth-child(2) b{color:var(--p)}.st:nth-child(3) b{color:var(--r)}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px;margin-bottom:26px}
+.pn{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+svg{display:block;width:100%;height:auto}
+svg text{fill:var(--mute);font:13px Sarabun,sans-serif}
+svg .v{fill:var(--ink);font-weight:600}
+.bar{cursor:pointer}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font-size:14px;color:var(--mute)}
+.lg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+.tr{display:grid;grid-template-columns:78px 1fr 22px;gap:8px;align-items:center;font-size:14px;margin-bottom:6px;color:var(--mute)}
+.tr div{height:10px;border-radius:5px;background:#1b1e33;overflow:hidden}
+.tr div i{display:block;height:100%;background:linear-gradient(90deg,var(--b),var(--p),var(--r))}
+.tr em{font-style:normal;color:var(--ink);font-weight:600}
+.q{width:100%;font:17px Sarabun,sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.c{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--g);border-radius:14px;padding:14px}
+.c:hover{box-shadow:0 0 22px -6px var(--g)}
+.cd{font:500 13px Prompt,sans-serif;color:var(--g)}
+.n{font-weight:600;line-height:1.35;margin:2px 0 6px}
+.m{color:var(--mute);font-size:15px;line-height:1.45;margin-bottom:8px}
+.k{font:700 26px/1.2 Prompt,sans-serif}
+.k small{font:400 15px Sarabun,sans-serif;color:var(--mute)}
+.dots{display:flex;flex-wrap:wrap;gap:3px;margin-top:8px}
+.dots i{width:9px;height:9px;border-radius:2px;background:var(--g);opacity:.85}
+.none{color:var(--mute);padding:20px 0}
+.wrap{overflow-x:auto;margin-top:34px}
+.tbl{width:100%;border-collapse:collapse}
+.tbl th,.tbl td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+.tbl th{font:500 15px Prompt,sans-serif;color:var(--mute)}
+.tbl td:nth-child(2),.tbl td:nth-child(3),.tbl th:nth-child(2),.tbl th:nth-child(3){text-align:right}
+@media print{.tabs,.chips,.q{display:none}}
+</style>
+</head>
+<body>
+<main>
+<h1>รายวิชาเพิ่มเติม</h1>
+<p class="sub">ภาคเรียนที่ 2 ปีการศึกษา 2569 เลือกระดับชั้น แล้วดูวิชา ครูผู้สอน สถานที่เรียน และจำนวนที่รับ</p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="stats" id="sum"></div>
+<div class="charts">
+ <div class="pn"><h2>นักเรียนแต่ละระดับชั้น (แตะแท่งเพื่อเลือก)</h2><div id="bars"></div></div>
+ <div class="pn"><h2 id="dh">กลุ่มวิชา</h2><div id="donut"></div></div>
+ <div class="pn"><h2>ครูที่สอนหลายระดับชั้นมากที่สุด</h2><div id="tch"></div></div>
+</div>
+<div class="chips" id="chips"></div>
+<input class="q" id="q" type="search" placeholder="ค้นหาชื่อวิชา รหัสวิชา หรือครูผู้สอน" aria-label="ค้นหารายวิชา">
+<div class="grid" id="grid"></div>
+<div class="wrap"><table class="tbl"><thead><tr><th>ระดับชั้น</th><th>นักเรียน (คน)</th><th>รายวิชา</th><th>การจัดห้อง</th></tr></thead><tbody id="tb"></tbody></table></div>
+</main>
+<script>
+var D=[{"l": "ม.1", "s": 278, "c": [["ง21262", "การปลูกไม้ตัดดอกเพื่อจำหน่าย 2", "ครูรวิยา", "เกษตรกรรม", 26], ["ง21279", "ธุรกิจทั่วไป 2", "ครูรุ่งทิวา", "4306", 25], ["ง21269", "งานประดิษฐ์ 2", "ครูรินญภัช", "4305", 25], ["ง21271", "ช่างเชื่อมไฟฟ้าเบื้องต้น 2", "ครูกรวิชญ์", "กิจจา 2", 25], ["ง21273", "งานไม้กรอบรูป", "ครูณัฐวุฒิ", "กิจจา 1", 25], ["ง21281", "การผลิตพืชเศรษฐกิจเพื่อจำหน่าย 2", "ครูพนิตพร", "เกษตรกรรม", 26], ["ง21280", "การแปรรูปผลิตภัณฑ์ในท้องถิ่น 2", "ครูธฤตวัน", "หัตถา 1", 26], ["ศ21204", "ขลุ่ยเพียงออ 2", "ครูกุมารี", "ดนตรีไทย", 25], ["ศ21206", "วงโยธวาทิต 2", "ครูวิจักขณ์", "ดนตรีสากล", 25], ["ศ21202", "จิตรกรรม", "ครูกันณพงศ์", "2102", 25], ["ท21202", "การอ่าน 2", "ครูอารีย์", "จิตตะ", 25]]}, {"l": "ม.2", "s": 279, "c": [["ง22266", "การผลิตเครื่องดื่ม 2", "ครูยุทธนา", "ภักษา", 22], ["ง22264", "การผลิตดินปลูกเพื่อจำหน่าย 2", "ครูรวิยา", "เกษตรกรรม", 22], ["ง22267", "ดอกไม้กระดาษย่น", "ครูอานนท์", "หัตถา 2", 22], ["ง22269", "งานฝีมือ 2", "ครูรินญภัช", "3106", 22], ["ง22281", "การขายเบื้องต้น 2", "ครูรุ่งทิวา", "3104", 22], ["ง22275", "ช่างซ่อมเครื่องใช้ไฟฟ้า 2", "ครูณัฐวุฒิ", "กิจจา 1", 22], ["ง22273", "ช่างเชื่อมไฟฟ้าเทคนิค 2", "ครูกรวิชญ์", "กิจจา 2", 21], ["ง22283", "เพาะผักงอกเพื่อสุขภาพ 2", "ครูพนิตพร", "เกษตรกรรม", 21], ["ง22282", "งานใบตอง 2", "ครูธฤตวัน", "หัตถา 1", 21], ["ศ22204", "ดนตรีไทยปฏิบัติตามความถนัด 2", "ครูกุมารี", "ดนตรีไทย", 21], ["ศ22202", "ช่างจิตรกรรมไทย", "ครูพีรศิษย์", "2101", 21], ["ศ22202", "ช่างจิตรกรรมไทย", "ครูกันณพงศ์", "2102", 21], ["ท22202", "การเขียน 2", "ครูพัชรพร", "จิตตะ", 21]]}, {"l": "ม.3", "s": 280, "c": [["ง23287", "จัดสวนถาดชื้น 2", "ครูรวิยา", "เกษตรกรรม", 24], ["ง23275", "งานปรับอากาศ", "ครูณัฐวุฒิ", "กิจจา 1", 24], ["ง23281", "การบัญชีสำหรับกิจการบริการ 2", "ครูรุ่งทิวา", "3207", 24], ["ง23271", "ของชำร่วย 2", "ครูรินญภัช", "3306", 23], ["ง23284", "การแปรรูปมะขาม 2", "ครูธฤตวัน", "หัตถา 1", 24], ["ง23274", "ช่างเชื่อมไฟฟ้าเพื่ออาชีพ 2", "ครูกรวิชญ์", "กิจจา 2", 23], ["ง23267", "ขนมไทยสร้างอาชีพ 2", "ครูยุทธนา", "ภักษา", 23], ["ง23285", "การผลิตพืชสมุนไพร 2", "ครูพนิตพร", "เกษตรกรรม", 23], ["ศ23202", "ประติมากรรม", "ครูพีรศิษย์", "2101", 23], ["ศ23204", "ดนตรีพื้นเมืองภาคเหนือ 2", "ครูกุมารี", "ดนตรีไทย", 23], ["ศ23206", "สตริง 2", "ครูวิจักขณ์", "ดนตรีสากล", 23], ["ท23202", "วรรณกรรมท้องถิ่น", "ครูเจริญ", "จิตตะ", 23]]}, {"l": "ม.4", "s": 157, "c": [["ง31264", "การผลิตปุ๋ยอินทรีย์ 2", "ครูรวิยา", "เกษตรกรรม", 14], ["ง31281", "การทำธุรกิจออนไลน์ 2", "ครูรุ่งทิวา", "5404", 14], ["ง31271", "ช่างเชื่อมไฟฟ้างานสร้างผลิตภัณฑ์", "ครูณัฐวุฒิ", "กิจจา 1", 14], ["ง31279", "อาหารคาวหวานเพื่อสุขภาพ 2", "ครูอานนท์", "หัตถา 2", 14], ["ง31284", "การจัดสวนถาดแก้ว 2", "ครูพนิตพร", "เกษตรกรรม", 14], ["ง31268", "NP Coffee 2", "ครูธฤตวัน", "5405", 15], ["ง31286", "ประดิษฐ์ของใช้จากวัสดุธรรมชาติในท้องถิ่น 2", "ครูกรวิชญ์", "กิจจา 2", 14], ["ศ31204", "อังกะลุง 2", "ครูกุมารี", "ดนตรีไทย", 14], ["ศ31202", "จิตรกรรม", "ครูกันณพงศ์", "2102", 15], ["ท31208", "รำโทน 2", "ครูอรสา", "2205", 15], ["ค31202", "การบัญชีธุรกิจซื้อขายสินค้า", "ครูเธียรวิชญ์", "2203", 14]]}, {"l": "ม.5", "s": 156, "c": [["ง32266", "เรื่องเล่าขานขนมหวานไทย 2", "ครูยุทธนา", "ภักษา", 12], ["ง32282", "งานจักรสานผลิตภัณฑ์ 2", "ครูณัฐวุฒิ", "กิจจา 1", 12], ["ง32269", "งานเย็บปักด้วยมือ 2", "ครูรินญภัช", "5304", 12], ["ง32273", "งานปรับอากาศรถยนต์", "ครูอานนท์", "เทคโนบ้านน้อย", 12], ["ง32284", "ช่างเชื่อม DIY 2", "ครูกรวิชญ์", "กิจจา 2", 12], ["ง32277", "การตลาดดิจิทัล 2", "ครูรุ่งทิวา", "5306", 12], ["ง32285", "ผักงอกเพื่อสุขภาพ", "ครูพนิตพร", "เกษตรกรรม", 12], ["ง32279", "การเพิ่มมูลค่าวัตถุดิบเหลือใช้ทางการเกษตร 2", "ครูธฤตวัน", "5307", 12], ["ศ32204", "เครื่องสายไทย", "ครูกุมารี", "ดนตรีไทย", 12], ["ศ32206", "สตริงคอมโบ 2", "ครูวิจักขณ์", "ดนตรีสากล", 12], ["ศ32202", "ช่างจิตรกรรมไทย", "ครูพีรศิษย์", "2101", 12], ["ส32202", "ผลิตภัณฑ์ผ้า 2", "ครูอลิตา", "2207", 12], ["พ32202", "สปาสมุนไพรเพื่อสุขภาพ", "ครูสุวรรณ", "2107", 12]]}, {"l": "ม.6", "s": 157, "c": [["ง33288", "เกษตรอินทรีย์ 2", "ครูรวิยา", "เกษตรกรรม", 14], ["ง33264", "เบเกอรี่ 2", "ครูยุทธนา", "ภักษา", 14], ["ง33268", "งาน DIY 2", "ครูรินญภัช", "5205", 14], ["ง33269", "ฝึกฝีมือ", "ครูกรวิชญ์", "กิจจา 2", 15], ["ง33278", "การบัญชีสำหรับกิจการอุตสาหกรรม 2", "ครูรุ่งทิวา", "5206", 15], ["ง33289", "ผลิตภัณฑ์จากพืชสมุนไพร", "ครูพนิตพร", "เกษตรกรรม", 14], ["ง33286", "ศิลปะและการประดิษฐ์ในงานคหกรรมศาสตร์ 2", "ครูธฤตวัน", "5204", 14], ["ศ33204", "พื้นฐานดนตรีไทย 2", "ครูกุมารี", "ดนตรีไทย", 14], ["ศ33202", "ประติมากรรม", "ครูกันณพงศ์", "2102", 14], ["อ33208", "มัคคุเทศก์ท้องถิ่น 2", "ครูบัวเรียน", "2202", 14], ["ว33222", "เคมีภัณฑ์ 2", "ครูวีรนุช", "2206", 15]]}];
+var GN=["การงานอาชีพ","ศิลปะ","ภาษาไทย","อื่นๆ"],GC=["#3b82f6","#a855f7","#ef4444","#7c86a8"];
+var cur=0,gf=-1;
+function grp(c){var x=c[0];return x=="ง"?0:x=="ศ"?1:x=="ท"?2:3}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function bars(){
+ var mx=Math.max.apply(null,D.map(function(d){return d.s})),s='<svg viewBox="0 0 300 175" role="img" aria-label="จำนวนนักเรียนแต่ละระดับชั้น"><defs><linearGradient id="bg" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs>';
+ D.forEach(function(d,i){var h=Math.round(d.s/mx*110),x=12+i*47;
+  s+='<g class="bar" data-i="'+i+'"><rect x="'+x+'" y="'+(130-h)+'" width="36" height="'+h+'" rx="6" fill="'+(i==cur?'url(#bg)':'#2a2f55')+'"/><text class="v" x="'+(x+18)+'" y="'+(124-h)+'" text-anchor="middle">'+d.s+'</text><text x="'+(x+18)+'" y="152" text-anchor="middle">'+d.l+'</text><text x="'+(x+18)+'" y="168" text-anchor="middle">'+d.c.length+' วิชา</text></g>'});
+ document.getElementById("bars").innerHTML=s+'</svg>';
+}
+function donut(){
+ var d=D[cur],n=[0,0,0,0],C=2*Math.PI*54,off=0,s='<svg viewBox="0 0 140 140" style="max-width:190px;margin:0 auto" role="img" aria-label="สัดส่วนกลุ่มวิชา"><g transform="rotate(-90 70 70)">';
+ d.c.forEach(function(r){n[grp(r[0])]++});
+ n.forEach(function(k,i){if(!k)return;var l=k/d.c.length*C;s+='<circle cx="70" cy="70" r="54" fill="none" stroke="'+GC[i]+'" stroke-width="18" stroke-dasharray="'+(l-2)+' '+(C-l+2)+'" stroke-dashoffset="'+(-off)+'"/>';off+=l});
+ s+='</g><text class="v" x="70" y="72" text-anchor="middle" style="font:700 28px Prompt,sans-serif">'+d.c.length+'</text><text x="70" y="90" text-anchor="middle">รายวิชา</text></svg><div class="lg">';
+ n.forEach(function(k,i){if(k)s+='<span><i style="background:'+GC[i]+'"></i>'+GN[i]+' '+k+'</span>'});
+ document.getElementById("dh").textContent="กลุ่มวิชา "+d.l;
+ document.getElementById("donut").innerHTML=s+'</div>';
+}
+function teachers(){
+ var m={};D.forEach(function(d){d.c.forEach(function(r){var k=r[2].replace("ครู","");m[k]=m[k]||{};m[k][d.l]=1})});
+ var a=Object.keys(m).map(function(k){return[k,Object.keys(m[k]).length]}).sort(function(x,y){return y[1]-x[1]}).slice(0,7),h="";
+ a.forEach(function(t){h+='<div class="tr"><span>'+t[0]+'</span><div><i style="width:'+t[1]/6*100+'%"></i></div><em>'+t[1]+'</em></div>'});
+ document.getElementById("tch").innerHTML=h+'<div class="lg">จำนวนระดับชั้น (จากทั้งหมด 6) ที่ครูสอน</div>';
+}
+function render(){
+ var t=document.getElementById("tabs");t.innerHTML="";
+ D.forEach(function(x,i){var b=el("button",null,x.l);b.setAttribute("role","tab");b.setAttribute("aria-selected",i==cur);b.onclick=function(){cur=i;render()};t.appendChild(b)});
+ var d=D[cur],ns=d.c.map(function(x){return x[4]}),mx=Math.max.apply(null,ns),mn=Math.min.apply(null,ns);
+ document.getElementById("sum").innerHTML='<div class="st"><b>'+d.s+'</b><span>นักเรียน '+d.l+'</span></div><div class="st"><b>'+d.c.length+'</b><span>รายวิชา</span></div><div class="st"><b>'+(mn==mx?mx:mn+"–"+mx)+'</b><span>คนต่อวิชา</span></div>';
+ bars();donut();
+ var ch=document.getElementById("chips");ch.innerHTML="";
+ ["ทั้งหมด"].concat(GN).forEach(function(n,i){var b=el("button",null,n);b.style.setProperty("--chip",i?GC[i-1]:"#eef0ff");b.setAttribute("aria-pressed",gf==i-1);b.onclick=function(){gf=i-1;render()};ch.appendChild(b)});
+ var q=document.getElementById("q").value.trim().toLowerCase(),g=document.getElementById("grid"),n0=0;g.innerHTML="";
+ d.c.forEach(function(r){
+  if(gf>=0&&grp(r[0])!=gf)return;
+  if(q&&r.slice(0,4).join(" ").toLowerCase().indexOf(q)<0)return;
+  n0++;var c=el("div","c");c.style.setProperty("--g",GC[grp(r[0])]);
+  c.appendChild(el("div","cd",r[0]));c.appendChild(el("div","n",r[1]));
+  c.appendChild(el("div","m",r[2]+" • สถานที่เรียน "+r[3]));
+  var k=el("div","k");k.innerHTML=r[4]+" <small>คน</small>";c.appendChild(k);
+  var dots=el("div","dots");for(var j=0;j<r[4];j++)dots.appendChild(document.createElement("i"));
+  c.appendChild(dots);g.appendChild(c)});
+ if(!n0)g.appendChild(el("div","none","ไม่พบรายวิชาที่ค้นหา"));
+ var tb=document.getElementById("tb"),tn=0,tc=0;tb.innerHTML="";
+ D.forEach(function(x){var m={};x.c.forEach(function(r){m[r[4]]=(m[r[4]]||0)+1});
+  var v=Object.keys(m).sort(function(a,b){return b-a}).map(function(k){return m[k]+" วิชา × "+k+" คน"}).join(" + ");
+  tn+=x.s;tc+=x.c.length;tb.innerHTML+="<tr><td>"+x.l+"</td><td>"+x.s+"</td><td>"+x.c.length+"</td><td>"+v+"</td></tr>"});
+ tb.innerHTML+="<tr><td><b>รวม</b></td><td><b>"+tn.toLocaleString()+"</b></td><td><b>"+tc+"</b></td><td></td></tr>";
+}
+document.getElementById("q").oninput=render;
+document.getElementById("bars").onclick=function(e){var g=e.target.closest(".bar");if(g){cur=+g.getAttribute("data-i");render()}};
+teachers();render();
+</script>
+</body>
+</html>
